@@ -1,0 +1,382 @@
+/* Top Section CSS */
+ 
+.topsection {
+    background-image: url("../Images/Hero\ Image.png");
+    height: 70vh;
+  }
+  
+ /* Hero Section CSS */
+  
+  .intro {
+    align-items: center;
+    display: flex;
+    position: relative;
+    padding-top: 100px;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100%;
+  }
+
+  .intro p{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-left: 450px;
+    padding-right: 250px;
+    align-content: flex-start;
+    position: absolute;
+    top: 170px;
+    text-align: center;
+  }
+  
+  .intro img:first-child{
+    height: 241px;
+    width: 241px;
+    padding-left: 200px;
+  }
+
+  #EshaHarish{
+    padding-left: 530px;
+    padding-bottom: 300px;
+  }
+
+  #UXDesigner{
+    padding-left: 825px;
+    position: absolute;
+    top: 130px;
+  }
+
+  /* Navigation CSS */
+  
+  #navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+
+  .navigation {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex;
+  }
+
+  .navigation p {
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: flex-start;
+    padding-right: 60px;
+  }
+
+  #HomeNav:hover{
+    cursor: pointer;
+    color: #C5BDA1;
+  }
+
+  #WorkNav:hover{
+    cursor: pointer;
+    color: #C5BDA1;
+  }
+
+  #AboutNav:hover{
+    cursor: pointer;
+    color: #C5BDA1;
+  }
+
+  #ContactNav:hover{
+    cursor: pointer;
+    color: #C5BDA1;
+  }
+
+  #ResumeNav:hover{
+    cursor: pointer;
+    color: #C5BDA1;
+  }
+
+
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 25%;
+  }
+  .icons img {
+    margin: 15px;
+    cursor: pointer;
+  }
+
+  /* Middle Section CSS */
+
+  .YellowBackground{
+    background-image: url("../Images/Yellow\ Rectangle.png");
+    background-size: 150px;
+    width: 1247px;
+    height: 395px;
+    position: absolute;
+    top: 600px;
+}
+
+.MiddleSection{
+    display: grid;
+    height: 120vh;
+    padding-top: 40px;
+    grid-template-rows: 40% 40%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+       "CaseStudyImg1 CaseStudyImg2"
+       "CaseStudyImg3 CaseStudyImg4";
+}
+
+#CaseStudyImg1 img:first-child{
+    padding-left: 350px;
+    position: relative;
+    cursor: pointer;
+    height: 280px;
+    width: 280px;
+}
+
+#CaseStudyImg2 img:first-child{
+    padding-left: 50px;
+    position: relative;
+    cursor: pointer;
+    height: 280px;
+    width: 280px;
+}
+
+#CaseStudyImg3 img:first-child{
+    padding-left: 350px;
+    position: relative;
+    cursor: pointer;
+    height: 280px;
+    width: 280px;
+}
+
+#CaseStudyImg4 img:first-child{
+    padding-left: 50px;
+    position: relative;
+    cursor: pointer;
+    height: 280px;
+    width: 280px;
+}
+
+#CaseStudyImg4:hover{
+    transform: scale(1.05);
+}
+
+#CaseStudyImg3:hover{
+    transform: scale(1.05);
+}
+
+#CaseStudyImg2:hover{
+    transform: scale(1.05);
+}
+
+#CaseStudyImg1:hover{
+    transform: scale(1.05);
+}
+    
+
+ /* See All Work Button CSS */
+
+ .SeeAllWork{
+    background-color: #9DAAA5;
+    border: 1px solid #9DAAA5;
+    border-radius: 0;
+    font-size: 1em;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+    top: 1130px;
+    left: 545px;
+    color: white;
+}
+
+.SeeAllWork:hover{
+    background-color: #697A73;
+}
+
+/* Contact Me CSS */
+
+.GreenBackground{
+    background-image: url("../Images/GreenRectangle.png");
+    width: 1247px;
+    height: 450px;
+    position: absolute;
+    top: 1230px;
+    
+}
+
+.ContactForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -340px;
+    padding-left: 550px;
+    width: 50%;
+}
+
+.form-group{
+    margin-bottom: 1.5em;
+}
+
+.form-label{
+    font-size: .75em;
+    color: white;
+    display: block;
+}
+
+.form-control{
+    box-shadow: none;
+    border-radius: 0;
+    border-style: none none none none;
+    font-size: 1.25em;
+}
+
+.submitbutton{
+    background-color: #F6EEC7;
+    border: 1px solid #9DAAA5;
+    border-radius: 0;
+    font-size: 1em;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.submitbutton:hover{
+    background-color: #C5BDA1;
+    cursor: pointer;
+}
+
+textarea{
+    resize: none;
+}
+
+#ELogo{
+    position: relative;
+    padding-left: 290px;
+    font-family: 'Yeseva-One';
+    top: -10px;
+}
+
+
+#ConnectWithMe{
+    position: relative;
+    padding-left: 210px;
+    color: white;
+    top: -30px;
+}
+
+
+ /* Footer CSS */
+
+ .FooterBackground{
+    background-image: url("../Images/Footer_Background.png");
+    width: 1247px;
+    height: 300px;
+    top: 1680px;
+    position: absolute;
+    background-position: center;
+ }
+
+ #Copyright2022{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-left: 590px;
+    padding-bottom: 0;
+    top:-50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+ }
+
+ .Copyright{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+ }
+
+ .FooterMedia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 25%;
+    padding-left: 400px;
+    top:-180px;
+    position: relative;
+    cursor: pointer;
+  }
+  .FooterMedia img {
+    margin: 15px;
+    cursor: pointer;
+  }
+
+
+ .Footer{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+ }
+
+
+  /* Typography CSS */
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    font-size: 64px;
+    font-weight: 400;
+    margin: 0px 0px;
+    font-family: 'Yeseva One';
+    Line-height: 74px;
+    line-height: 100%;
+    align-items: Center;
+    vertical-align: Top;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+  }
+  
+  h2{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One';
+  }
+
+  h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    align-items: center;
+    vertical-align: Top;
+    margin: 0px 0px;
+  }
+
+/* Media Query CSS */
+  
+  @media only screen and (max-width: 600px) {
+    #navBar{
+        display: flex;
+        width: 100%;
+    }
+    #heroGrid{
+        display: flex;
+        width: auto;
+    }
+    .MiddleSection{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .ContactMe{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+    }
+     
+  }
+  
+
